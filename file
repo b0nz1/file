@@ -1,0 +1,46 @@
+
+1. Introduction
+University admission or college admission is the process through which students enter tertiary education at universities or colleges around the world. Most universities use a Holistic review process when evaluating college applications. Holistic review is premised on the notion that quantitative measures of academic accomplishments are insufficient bases of merit on their own and necessitate a qualitative complement[6]. As an evaluative protocol, holistic review aims to integrate multiple indicators of merit when deriving a final admission decision for each applicant. Indicators typically include scores of standardized tests, school grades, documented extracurricular accomplishments, letters  of recommendation, and original essays submitted by each applicant.
+
+A College Admission Essay (CAE), sometimes also called a personal statement or a statement of purpose, is an essay written by applicants, on topics that can range from being very specific to open-ended.  There are differing opinions about the importance of the CAE. The consensus is that the essay is less important than the grades, but can make the difference in some instances[3], often at highly selective colleges where they can “make you or break you”[4]. The CAE is  an opportunity to reveal your best qualities and show the admission committee what makes you stand out from other applicants and hence submission of such a good quality essay becomes of paramount importance. 
+The applicant’s story needs to be well written, interesting, and captivating. These will ensure that your essay stands out from all the rest and be read by the admission committee and not just skimmed[5]. It comes as no surprise that applicants spend a great deal of time and effort in writing a CAE for the admission process, as recommended by University guidelines, Alumni blogs, and Admission consultancy blogs[7].
+
+The entire process of holistic review is predicated on the notion that human readers are essential to the task of evaluation, especially regarding the qualitative elements of the application[7]. The staggering number of applications to colleges raises the cost of reliance on human readers and aggravates the potential for human biases. Stanford university, for example, must winnow over 47,000 applicants down to 2,000 undergraduate admits each year[8]. In this work, I will try to find the features which impact the quality of a CAE. Two layers of features will be examined in this work. The first layer consists of textual features that correspond to different properties of text such as grammar, punctuation, structure, as well as specific elements such as paragraphs, sentences, and words. These features are relatively easy to measure and quantify. The second layer consists of deep semantic features which are more elusive and are harder to quantify such as interestingness and cohesiveness.
+The success of proposed research will enable the creation of an automated CAE evaluation system which will consequently help obviating the need for human readers and remove any possible bias in the admission process. 
+  
+2. Related Work
+Most of the research done to this day with regards to essays evaluation concerns the task of Automated Essay Scoring (AES) which refers to the set of statistical and natural language processing techniques used to automatically score a text on a marking scale[9]. AES models can be divided into three main streams. The models of the first stream are feature-engineered models, which are driven by handcrafted features, such as the number of words and grammar errors[10[1-2]]. The advantage is that the handcrafted features are explainable. However, some deep semantic features extracted by understanding the essay are hard to be captured by feature engineered models. The second stream is the end-to-end models, which is driven by the rapid development of deep learning techniques[10[3-6]]. Specifically, based on word embeddings[10[7-8]], essays are represented into low-dimensional vectors, and followed by a dense layer to transform these deep-encoded vectors (involving deep semantic meanings) to corresponding scorings. Although end-to-end models are good at extracting deep semantic features, they are less explanatory and struggle with integrating handcrafted features like spelling errors and grammar errors, which are proven to be vital for the effectiveness of AES models. The third and final stream exploits both handcrafted features and deep-encoded features to ensure effectiveness and robustness of AES systems and achieve SOTA results[10].
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1] -  "Tips and Samples for the Common Application Essay Options". https://www.thoughtco.com/personal-essays-on-the-common-application-788371
+
+[2] - Is your Statement Purposeless? Predicting Computer Science Graduation Admission Acceptance based on Statement Of Purpose
+
+[3] - Steve Cohen (September 23, 2011). "Top 10 myths of college admissions". The Washington Post. Retrieved December 12, 2011.
+
+[4] -Kim Clark (November 15, 2010). "8 Big Changes to College Admissions in 2010 and 2011". US News. Retrieved May 15, 2012.
+
+[5] - https://www.unigo.com/admissions-advice/is-every-college-essay-read-how-many-admissions-officers-read-them
+
+[6] - AI and Holistic Review: informing human reading in college admission [41]
+[7] - AI and Holistic Review: informing human reading in college admission [2]
+[8] - https://admission.stanford.edu/apply/selection/profile18.html
+[9] - Automatic Text Scoring Using Neural Networks
+[10] - Automated essay scoring based on Two-Stage Learning
