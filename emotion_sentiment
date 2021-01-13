@@ -1,3 +1,30 @@
+Emotion Detection:
+Text‐based emotion detection: Advances, challenges, and opportunities:
+https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12189
+
+Summary:
+This is a subfield of Sentiment Analysis which aims at assigning polarities either Negative, Positive or Neutral to Human genereted content (texts in our case).
+Emotion detection seeks to extract finer-grained emotions such as happy, sad, angry, surprise, fear and so on, from human languages. 
+Emotions are derived from the personal experience of individuals and provide insight to their current state and well-being (very important!).
+Discrete emotion models (DEMs): The discrete model of emotions involves placing emotions into distinct classes or categories. 
+The Paul Ekman model distinguishes emotions based on six basic categories - happiness, sadness, anger, disgust, surprise, and fear. 
+However, the synergy of these emotions could produce other complex emotions such as guilt, shame, pride, lust, greed, and so on. 
+According to Robert Plutchik's model, there are eight emotions in opposite pairs - joy vs sadness, trust vs disgust, anger vs fear, and surprise vs anticipation.
+Dimensional emotion models (DiEMs): The dimensional model presupposes that emotions are not independent and that there exists a relation between them hence the need
+to place them in a spatial space. 
+
+Most ED is done on other domains (visual, speech) because of difficulties associated with extracting emotions from grammatically erroneous texts, short‐messages, 
+sarcasm in written documents, contextual information, and so on. The task of determining the appropriate relation under which an author can be significantly 
+associated with their written texts in order to determine their emotions could be backbreaking.
+
+Datasets: The paper contains 13 publicly available datasets for text-based ED in domains of twits, articles, comments. One database is in arabic as well:
+The Semantic Evaluations (SemEval) is a database consisting of Arabic and English news headlines extracted from news websites such as BBC, CNN, Google News, and 
+other major newspapers. The dataset contains 1250 data in total. The data in this database are rich in emotional content for emotion extraction and it is labeled 
+using the 6 emotional categories (ie, joy, sadness, fear, surprise, anger, and disgust) presented by Ekman.
+
+options:
+1. ED based on speech (before transcript)
+2. text-based ED with public datasets + translations (multilingual caipability...)
 ########### HEBREW ################
 1. https://github.com/avichaychriqui/HeBERT
 * Published a pretrained hebrew BERT on the task of sentiment analysis with the following results:
@@ -12,3 +39,5 @@ weighted avg	0.96	0.97	0.96
 DATASET: UGC (User Generated Content) ~150 MB, including over 7 millions words and 350K sentences. 
 ~2000 sentences were annotated by crowd members (3-10 annotators per sentence) for overall sentiment (polarity) 
 and eight emotions: anger, disgust, expectation , fear, happy, sadness, surprise and trust.
+
+
