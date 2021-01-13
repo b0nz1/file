@@ -25,8 +25,8 @@ using the 6 emotional categories (ie, joy, sadness, fear, surprise, anger, and d
 options:
 1. ED based on speech (before transcript)
 2. text-based ED with public datasets + translations (multilingual caipability...)
-########### HEBREW ################
-1. https://github.com/avichaychriqui/HeBERT
+3. text-based ED Hebrew: 
+https://github.com/avichaychriqui/HeBERT
 * Published a pretrained hebrew BERT on the task of sentiment analysis with the following results:
 natural	0.83	0.56	0.67
 positive	0.96	0.92	0.94
