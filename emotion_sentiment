@@ -32,7 +32,7 @@ techniques are more robust and that their deep layers can extract the intrinsic/
 problems has been seen to outperform techniques that implemented traditional ML.
 
 options:
-1. ED based on speech (before transcript)
+1. ED based on speech (before transcript) - TBD
 2. text-based ED with public datasets + translations (multilingual caipability...)
 3. text-based ED Hebrew: 
 https://github.com/avichaychriqui/HeBERT
@@ -45,8 +45,14 @@ macro avg	0.92	0.82	0.86
 weighted avg	0.96	0.97	0.96
 
 * Supposed to publish Emotion Recognition model as well. I opened an issue regarding the model and the data it was trained on.
+Answer: They will publish ED model and data after publishing the paper (Unknown time!!)
 DATASET: UGC (User Generated Content) ~150 MB, including over 7 millions words and 350K sentences. 
 ~2000 sentences were annotated by crowd members (3-10 annotators per sentence) for overall sentiment (polarity) 
 and eight emotions: anger, disgust, expectation , fear, happy, sadness, surprise and trust.
 
+##Further reading:
+https://ieeexplore.ieee.org/abstract/document/8593165
+https://ieeexplore.ieee.org/abstract/document/8614159
+https://ieeexplore.ieee.org/abstract/document/8614159
+https://link.springer.com/article/10.1007/s41060-018-0096-z
 
